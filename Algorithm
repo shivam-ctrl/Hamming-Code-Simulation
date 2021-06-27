@@ -1,0 +1,7 @@
+Step 1 : Take input of a 7 bit binary number.
+Step 2 : Store each digit in an array of 11 leaving spaces for positions of redundant bits.
+Step 3 : Define the values of the redundant bits using XOR operation.
+Step 4 : For simulating an error, select a random position and a random bit 0/1, then place the bit in the random position of the array.
+Step 5 : Now again change the values of the redundant bits using their respective XOR formulas.
+Step 6 : Take out the redundant bits in order to get the position of the position of the error bit in binary.
+Step 7 : Complement  the error bit and this was our original hamming code before noise addition.
